@@ -25,7 +25,7 @@
             block: <?php echo $options['webmail_block'] === 'on'  ? 1 : 0; ?>,
         }
     };
-   //  new Disposable.Blocker(defaults);
+    new Disposable.Blocker(defaults);
 </script>
 <div class="float-left">
     <div class="white-background padding-5-30">
